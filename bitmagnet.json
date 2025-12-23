@@ -1,0 +1,14 @@
+{
+  "name": "Bitmagnet Proxy (Movies, TV, Anime)",
+  "description": "Public Torznab proxy returning magnet links for movies, TV shows, and anime.",
+  "url": "https://torznab-proxy.widsbe3.workers.dev/?q={{query}}",
+  "type": "json",
+  "itemType": "magnet",
+  "jsonResultsKey": "results",
+  "magnetTargetKey": "magnet",
+  "types": ["movie", "series", "anime"],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}
