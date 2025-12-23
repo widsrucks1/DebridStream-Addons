@@ -6,5 +6,6 @@
   "infoHashTargetKey": "infoHash",
   "jsonResultsKey": "streams",
   "torrentNameTargetKey": "title",
-  "url": "https://torznab-proxy.yourname.workers.dev/?q={{query}}"
+  "url": "https://torznab-proxy.widsbe3.workers.dev/?q={{query}}"
 }
+
