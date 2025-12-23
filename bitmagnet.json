@@ -1,14 +1,10 @@
 {
-  "name": "Bitmagnet Proxy (Movies, TV, Anime)",
-  "description": "Public Torznab proxy returning magnet links for movies, TV shows, and anime.",
-  "url": "https://torznab-proxy.widsbe3.workers.dev/?q={{query}}",
-  "type": "json",
-  "itemType": "magnet",
-  "jsonResultsKey": "results",
-  "magnetTargetKey": "magnet",
-  "types": ["movie", "series", "anime"],
-  "behaviorHints": {
-    "configurable": false,
-    "configurationRequired": false
-  }
+  "name": "Bitmagnet Proxy (json_imdb)",
+  "type": "json_imdb",
+  "imdbType": "movie",
+  "itemType": "info_hash",
+  "infoHashTargetKey": "infoHash",
+  "jsonResultsKey": "streams",
+  "torrentNameTargetKey": "title",
+  "url": "https://torznab-proxy.yourname.workers.dev/?q={{query}}"
 }
